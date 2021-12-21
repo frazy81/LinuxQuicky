@@ -17,6 +17,7 @@ contents
 * [user and group management](usergroupmanagement/)
 * [video](video/)
 * [troubleshooting](troubleshooting/)
+* [periodic tasks](periodictasks/)
 * [some hacks assorti](some_hacks_assorti/)
 * [further software details](others/)
 * [links](links/)
@@ -38,4 +39,3 @@ cd 52a0111919002df080092a9e34e33861
 grip -b
 
 ```
-
