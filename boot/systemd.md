@@ -32,5 +32,15 @@ Boot time analysis
 
 then open the temp.xml in a browser
 
+Am I using systemd?
+-------------------
+
+`ps -p 1`
+
+    PID TTY          TIME CMD
+      1 ?        00:02:47 systemd
+      
+if process 1 shows systemd, you're running systemd.
+
 [back](./)
 
