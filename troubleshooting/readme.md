@@ -3,7 +3,8 @@ Troubleshooting
 
  * normally it's your mistake! Take a step back and think it over.
  * normally it's easy to fix!
- * vi is a cool editor. But think like an assembler programmer.
+ 
+The problem is normally somewhere between chair and keyboard.
  
 See logs
 --------

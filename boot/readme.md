@@ -7,6 +7,7 @@ Boot Process
 * [systemd](systemd.md)
 * [enable boot-messages](bootmessages.md)
 * [graphical or console environment](graphical.md)
+* [Runlevel](runlevel.md)
 * [Debug shutdown](shutdown.md)
 
 [back](../)

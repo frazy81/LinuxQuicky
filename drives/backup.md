@@ -3,7 +3,7 @@ Backup
 
 dd (disk dump) is your friend (and worst nightmare if you don't crosscheck what you do).
 
-Always double check if you write to (or read from) the correct block device! Sometimes the letters change.
+Always double check if you write to (or read from) the correct block device! Sometimes the drive letters change.
 
 make backup:
 

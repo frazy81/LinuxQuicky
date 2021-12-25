@@ -17,5 +17,15 @@ or
 -f: fast (otherwise 0-ed, takes long)
 -U: Make UUID, good for /etc/fstab
 
+name a volume
+-------------
+
+ntfslabel /dev/sda9 my_label
+
+partitioning
+------------
+
+in a [partitioning](../drives/) tool (such as cfdisk, fdisk, gnome-disks) select partition type 7 (HPFS/NTFS/exFAT) for NTFS.
+
 [back](./)
 

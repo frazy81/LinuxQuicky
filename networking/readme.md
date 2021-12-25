@@ -7,18 +7,27 @@ Networking
 unsorted command lines
 ----------------------
 
-ip link show
-nmcli device status
-nmcli connection show
-netstat -i
-/sbin/ifconfig -a
-ip r # routing table
-arp -a	# routing table
+`ip link show`
 
-systemctl status NetworkManager.service or
-journalctl -u NetworkManager.service
+`nmcli device status`
 
-apt install wireless-tools	# for iwconfig
+`nmcli connection show`
+
+`netstat -i`
+
+`/sbin/ifconfig -a`
+
+`ip r # routing table`
+
+`arp -a	# routing table`
+
+`systemctl status NetworkManager.service`
+
+or
+
+`journalctl -u NetworkManager.service`
+
+`apt install wireless-tools`	# for iwconfig
 
 [back](../)
 

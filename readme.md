@@ -15,7 +15,6 @@ contents
 * [ssh](ssh/)
 * [monitoring](monitoring/)
 * [user and group management](usergroupmanagement/)
-* [video](video/)
 * [troubleshooting](troubleshooting/)
 * [periodic tasks](periodictasks/)
 * [some hacks assorti](some_hacks_assorti/)
@@ -39,3 +38,4 @@ cd 52a0111919002df080092a9e34e33861
 grip -b
 
 ```
+
