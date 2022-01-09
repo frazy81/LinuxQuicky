@@ -12,6 +12,7 @@ Common linux filesystems
 * [samba/cifs](samba.md)
 * [tmpfs - in memory file system - ramdisk](tmpfs.md)
 * linux swap (todo)
+* [wearout considerations for SD/SSD](wearout.md)
 * and many others (including support for NTFS/FAT16/32/exFAT)
 
 which filesystem
@@ -32,5 +33,18 @@ fixing filesystem issues
 ------------------------
 
 [fixing](fixing.md)
+
+What is mounted?
+----------------
+
+* mount				# show all mounted filesystems
+* findmnt -l --target /		# what is mounted at '/'
+* findmnt			# show all mounted filesystems
+
+Which process accesses a certain file
+-------------------------------------
+
+* fuser -v /path/to/file
+* fuser -v /mnt			# is /mnt still being used (and by which processes)
 
 [back](../)

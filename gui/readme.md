@@ -21,5 +21,11 @@ uncomment and change the following line:
 
 autologin-user=<user-name>
 
+Start menu items
+----------------
+
+are stored in `/usr/share/applications` and `~/.local/share/applications`. But this may well depend on
+the menu in use (eg. Default Cinnamon menu applet and Cinnamenu and others).
+
 [back](../)
 

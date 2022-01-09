@@ -14,6 +14,7 @@ contents
 * [networking](networking/)
 * [ssh](ssh/)
 * [monitoring](monitoring/)
+* [hardware](hardware/)
 * [user and group management](usergroupmanagement/)
 * [troubleshooting](troubleshooting/)
 * [periodic tasks](periodictasks/)

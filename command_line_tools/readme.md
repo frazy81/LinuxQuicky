@@ -35,7 +35,9 @@ vmstat -S M (megabytes)
 
 mpstat -P all 1
 
-iostat
+iostat -t 1
+
+vnstat
 
 top
 

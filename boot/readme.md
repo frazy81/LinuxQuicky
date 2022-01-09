@@ -8,6 +8,7 @@ Boot Process
 * [enable boot-messages](bootmessages.md)
 * [graphical or console environment](graphical.md)
 * [Runlevel](runlevel.md)
+* [UEFI/BIOS](uefi.md)
 * [Debug shutdown](shutdown.md)
 
 [back](../)
