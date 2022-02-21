@@ -9,6 +9,7 @@ Common linux filesystems
 * [ext4](ext4.md)
 * [ntfs](ntfs.md)
 * [nfs network file system](nfs.md)
+* [btrfs](btrfs.md)
 * [samba/cifs](samba.md)
 * [tmpfs - in memory file system - ramdisk](tmpfs.md)
 * linux swap (todo)
