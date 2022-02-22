@@ -1,4 +1,4 @@
-#btrfs
+# btrfs
 
 ### create a new btrfs filesystem
 
@@ -36,7 +36,7 @@ or
 
 or in /etc/fstab:
 
-`UUID=<UUID>	/mnt3	rw,exec,subvolid=258	0	0`		# UUID by `blkid`
+`UUID=<UUID>	/mnt3	btrfs	rw,exec,subvolid=258	0	0`		# UUID by `blkid`
 
 ### checking and maintenance
 
