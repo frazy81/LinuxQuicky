@@ -44,6 +44,12 @@ or in /etc/fstab:
 
 `btrfs scrub start /mnt2`
 
+`btrfs scrub status /mnt2`
+
+`btrfs scrub cancel /mnt2`
+
+`btrfs scrub resume /mnt2`
+
 ### info
 
 `btrfs fi show`
@@ -62,6 +68,13 @@ do not use btrfs RAID 5.
 
 for btrfs as root filesystem: do NOT use top level! Create a subvolume "@" and mount this subvolume as root,
 so that snapshots and fs-expansion works.
+
+When snapshots are active, removing a lot or big files costs time due to CoW (Copy on Write). If a lot of copy and remove operations are
+due it might make sence to use a ext4 filesystem or use a subvolume with no snapshots.
+
+A good tool to keep track of used storage space by snapshots is:
+
+[btrfs-du](https://github.com/nachoparker/btrfs-du/blob/master/btrfs-du)
 
 [back](./)
 
